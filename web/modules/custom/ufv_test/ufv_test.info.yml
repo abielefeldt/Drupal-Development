@@ -1,0 +1,5 @@
+name: 'UFV Test'
+type: module
+description: 'Test UniqueFieldValue Validator'
+package: Custom
+core_version_requirement: ^10

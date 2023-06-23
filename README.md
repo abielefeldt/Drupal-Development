@@ -1,3 +1,7 @@
+The original README for the source project follows.
+
+For instructions on getting up and running, see DEVELOPMENT.md
+
 # Drupal Core Development Composer Project
 
 This is a Composer project template for developing Drupal core.

@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for UFV Test module.
+ */
+
+/**
+ * Implements hook_entity_bundle_field_info_alter().
+ */
+function ufv_test_entity_bundle_field_info_alter(&$fields, \Drupal\Core\Entity\EntityTypeInterface $entity_type, $bundle) {
+  $my_fields = [
+    'field_link',
+    'field_plaintext',
+    'field_tags',
+  ];
+  if ($bundle === 'ufv_test') {
+    foreach($my_fields as $my_field) {
+      if(!empty($fields[$my_field])) {
+        $fields[$my_field]->addConstraint('UniqueField', []);
+      }
+    }
+  }
+}
+

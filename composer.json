@@ -38,11 +38,12 @@
     ],
     "require": {
         "composer/installers": "^1.9 | ^2",
-        "drupal/core-composer-scaffold": "*",
-        "drupal/drupal": "*",
+        "drupal/admin_toolbar": "^3.4",
         "drupal/core": "*",
+        "drupal/core-composer-scaffold": "*",
         "drupal/core-dev": "*",
         "drupal/core-recommended": "*",
+        "drupal/drupal": "*",
         "drush/drush": "^11.x-dev",
         "phpspec/prophecy-phpunit": "*",
         "symfony/var-dumper": "^5.4 | ^6.2"

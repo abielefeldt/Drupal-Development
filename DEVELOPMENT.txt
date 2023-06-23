@@ -1,6 +1,0 @@
-Exmaple of using a merge request for the Drupal repository:
-
-$ cd repos/drupal
-$ git remote add origin git@git.drupal.org:issue/drupal-2478663.git
-$ git fetch drupal-2478663
-$ git checkout 2478663-uniquefieldvaluevalidator-works-only
