@@ -44,6 +44,7 @@
         "drupal/core-dev": "*",
         "drupal/core-recommended": "*",
         "drupal/drupal": "*",
+        "drupal/save_edit": "1.x@dev",
         "drush/drush": "^11.x-dev",
         "phpspec/prophecy-phpunit": "*",
         "symfony/var-dumper": "^5.4 | ^6.2"
