@@ -67,6 +67,21 @@
         }
     },
     "scripts": {
+        "install-codestandards": [
+            "PHPCSStandards\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
+        ],
+        "php-stan": [
+            "./vendor/bin/phpstan"
+        ],
+        "phpcs": [
+            "./vendor/bin/phpcs"
+        ],
+        "phpcbf": [
+            "./vendor/bin/phpcbf"
+        ],
+        "post-install-cmd": [
+             "@install-codestandards"
+        ],
         "post-root-package-install": [
             "DrupalGitCloneProject\\ComposerScripts::postRootPackageInstall"
         ],
@@ -121,6 +136,7 @@
         }
     },
     "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
         "squizlabs/php_codesniffer": "^3.7"
     }
 }
