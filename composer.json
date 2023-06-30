@@ -39,6 +39,7 @@
     "require": {
         "composer/installers": "^1.9 | ^2",
         "drupal/admin_toolbar": "^3.4",
+        "drupal/coder": "^8.3",
         "drupal/core": "*",
         "drupal/core-composer-scaffold": "*",
         "drupal/core-dev": "*",
