@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "84b9531f765d6fb66205d1234d41dbb6",
+    "content-hash": "8e8cf46bdc687fab980a7189b5ee6dd4",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2537,7 +2537,7 @@
             "dist": {
                 "type": "path",
                 "url": "repos/drupal/composer/Metapackage/CoreRecommended",
-                "reference": "c75813c47d1cc7b235905dd4d3a795060fbe3870"
+                "reference": "3f03f84511e4322dc47e6186e25575a1e94b6cf2"
             },
             "require": {
                 "asm89/stack-cors": "~v2.1.1",
@@ -2548,7 +2548,6 @@
                 "drupal/core": "10.1.x-dev",
                 "egulias/email-validator": "~4.0.1",
                 "guzzlehttp/guzzle": "~7.7.0",
-                "guzzlehttp/promises": "~2.0.0",
                 "guzzlehttp/psr7": "~2.5.0",
                 "masterminds/html5": "~2.8.0",
                 "mck89/peast": "~v1.15.1",
@@ -2644,7 +2643,7 @@
             "dist": {
                 "type": "path",
                 "url": "repos/drupal",
-                "reference": "c25cf2a4c8886089abba30410c3c49e4294a5810"
+                "reference": "61c3efa64c2b7ebecefeafa414ff884846139877"
             },
             "require": {
                 "composer/installers": "^2.0",
@@ -3554,6 +3553,50 @@
                 "source": "https://github.com/instaclick/php-webdriver/tree/1.4.16"
             },
             "time": "2022-10-28T13:30:35+00:00"
+        },
+        {
+            "name": "joachim-n/composer-manifest",
+            "version": "1.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/joachim-n/composer-manifest.git",
+                "reference": "95da909b377c69087c63fb2a17ef7a285f6f39b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/joachim-n/composer-manifest/zipball/95da909b377c69087c63fb2a17ef7a285f6f39b2",
+                "reference": "95da909b377c69087c63fb2a17ef7a285f6f39b2",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "symfony/yaml": "^3.4 || ^4.2 || ^5.4 || ^6.1"
+            },
+            "require-dev": {
+                "composer/composer": "^1.0 || ^2.0",
+                "symfony/var-dumper": "^4.2"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "ComposerManifest\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "ComposerManifest\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Joachim Noreiko",
+                    "email": "joachim@107701.no-reply.drupal.org"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/joachim-n/composer-manifest/issues",
+                "source": "https://github.com/joachim-n/composer-manifest/tree/1.1.5"
+            },
+            "time": "2022-08-09T15:38:25+00:00"
         },
         {
             "name": "justinrainbow/json-schema",

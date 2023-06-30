@@ -46,6 +46,7 @@
         "drupal/drupal": "*",
         "drupal/save_edit": "1.x@dev",
         "drush/drush": "^11.x-dev",
+        "joachim-n/composer-manifest": "^1.1",
         "phpspec/prophecy-phpunit": "*",
         "symfony/var-dumper": "^5.4 | ^6.2"
     },
@@ -60,7 +61,8 @@
             "drupal/core-composer-scaffold": true,
             "phpstan/extension-installer": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "joachim-n/composer-manifest": true
         }
     },
     "scripts": {
