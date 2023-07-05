@@ -38,6 +38,8 @@ packages:
     drupal/core-recommended: 10.1.x-dev
     drupal/core-vendor-hardening: 10.1.x-dev
     drupal/drupal: 10.1.x-dev
+    drupal/entity_reference_revisions: 1.10.0
+    drupal/paragraphs: 1.15.0
     drupal/save_edit: 'dev-1.x:522ed2615a3b333313af6fdd88c20d33295a1b3f'
     drush/drush: '11.x-dev:0248c823a1836f5e05bf65d396ecc3acff683236'
     egulias/email-validator: 4.0.1
