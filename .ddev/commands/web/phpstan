@@ -1,0 +1,7 @@
+#!/bin/sh
+
+## Description: Runs phpstan
+## Usage: phpstan
+## Example: "ddev phpstan"
+
+phpstan "$@"

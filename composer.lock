@@ -2537,7 +2537,7 @@
             "dist": {
                 "type": "path",
                 "url": "repos/drupal/composer/Metapackage/CoreRecommended",
-                "reference": "3f03f84511e4322dc47e6186e25575a1e94b6cf2"
+                "reference": "c75813c47d1cc7b235905dd4d3a795060fbe3870"
             },
             "require": {
                 "asm89/stack-cors": "~v2.1.1",
@@ -2548,6 +2548,7 @@
                 "drupal/core": "10.1.x-dev",
                 "egulias/email-validator": "~4.0.1",
                 "guzzlehttp/guzzle": "~7.7.0",
+                "guzzlehttp/promises": "~2.0.0",
                 "guzzlehttp/psr7": "~2.5.0",
                 "masterminds/html5": "~2.8.0",
                 "mck89/peast": "~v1.15.1",
@@ -2643,7 +2644,7 @@
             "dist": {
                 "type": "path",
                 "url": "repos/drupal",
-                "reference": "6e5584f4c7601b9985fe53b317f7ddbcd1193608"
+                "reference": "7667300b701d8c63a2f41f2e209ccfd74f2efbc1"
             },
             "require": {
                 "composer/installers": "^2.0",

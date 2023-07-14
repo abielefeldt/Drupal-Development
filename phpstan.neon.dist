@@ -1,0 +1,21 @@
+#includes:
+#  - phpstan-baseline.neon
+parameters:
+  # https://phpstan.org/config-reference#rule-level
+  level: max
+
+  # https://phpstan.org/config-reference#phpversion
+  phpVersion: 80000
+
+  # https://phpstan.org/config-reference#inferprivatepropertytypefromconstructor
+  inferPrivatePropertyTypeFromConstructor: true
+
+  # https://phpstan.org/user-guide/ignoring-errors#reporting-unused-ignores
+  reportUnmatchedIgnoredErrors: false
+
+  paths:
+    - web/modules/custom
+#    - web/themes/gesso
+#  excludePaths:
+#    - web/themes/gesso/gesso_helper
+#    - web/themes/gesso/node_modules
