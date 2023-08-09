@@ -5,6 +5,11 @@
     "license": "GPL-2.0-or-later",
     "repositories": [
         {
+            "name": "drupal/simplesamlphp_auth",
+            "type": "vcs",
+            "url": "https://git.drupalcode.org/issue/simplesamlphp_auth-3380262.git"
+        },
+        {
             "type": "path",
             "url": "repos/drupal",
             "options": {
