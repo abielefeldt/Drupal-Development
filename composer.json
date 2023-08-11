@@ -5,11 +5,6 @@
     "license": "GPL-2.0-or-later",
     "repositories": [
         {
-            "name": "drupal/simplesamlphp_auth",
-            "type": "vcs",
-            "url": "https://git.drupalcode.org/issue/simplesamlphp_auth-3380262.git"
-        },
-        {
             "type": "path",
             "url": "repos/drupal",
             "options": {
@@ -51,7 +46,7 @@
         "drupal/core-recommended": "*",
         "drupal/drupal": "*",
         "drupal/paragraphs": "^1.15",
-        "drupal/save_edit": "1.x@dev",
+        "drupal/save_edit": "^1",
         "drush/drush": "^11.x-dev",
         "joachim-n/composer-manifest": "^1.1",
         "phpspec/prophecy-phpunit": "*",
@@ -69,7 +64,8 @@
             "phpstan/extension-installer": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "php-http/discovery": true,
-            "joachim-n/composer-manifest": true
+            "joachim-n/composer-manifest": true,
+            "simplesamlphp/composer-module-installer": true
         }
     },
     "scripts": {
