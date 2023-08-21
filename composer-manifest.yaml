@@ -23,6 +23,7 @@ packages:
     consolidation/self-update: 2.2.0
     consolidation/site-alias: 4.0.1
     consolidation/site-process: 5.2.0
+    cweagans/composer-patches: 1.7.3
     dealerdirect/phpcodesniffer-composer-installer: v1.0.0
     dflydev/dot-access-data: v3.0.2
     doctrine/annotations: 1.14.3
