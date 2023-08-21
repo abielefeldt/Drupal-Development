@@ -38,6 +38,7 @@
     ],
     "require": {
         "composer/installers": "^1.9 | ^2",
+        "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.4",
         "drupal/coder": "^8.3",
         "drupal/core": "*",
@@ -65,7 +66,8 @@
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "php-http/discovery": true,
             "joachim-n/composer-manifest": true,
-            "simplesamlphp/composer-module-installer": true
+            "simplesamlphp/composer-module-installer": true,
+            "cweagans/composer-patches": true
         }
     },
     "scripts": {
@@ -110,6 +112,11 @@
                 "[web-root]/core/phpunit.xml": "assets/phpunit.xml"
             }
         },
+        "composer-exit-on-patch-failure": true,
+        "patchLevel": {
+            "drupal/core": "-p2"
+        },
+        "patches-file": "composer.patches.json",
         "installer-paths": {
             "web/core": [
                 "type:drupal-core"
