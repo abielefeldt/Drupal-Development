@@ -40,7 +40,7 @@ packages:
     drupal/drupal: 10.1.x-dev
     drupal/entity_reference_revisions: 1.10.0
     drupal/paragraphs: 1.15.0
-    drupal/save_edit: 1.4.0
+    drupal/save_edit: 1.5.0
     drush/drush: '11.x-dev:0248c823a1836f5e05bf65d396ecc3acff683236'
     egulias/email-validator: 4.0.1
     enlightn/security-checker: v1.10.0
