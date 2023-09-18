@@ -5,6 +5,11 @@
     "license": "GPL-2.0-or-later",
     "repositories": [
         {
+            "name": "drupal/gcontent_moderation",
+            "type": "vcs",
+            "url": "https://git.drupalcode.org/issue/gcontent_moderation-3309542.git"
+        },
+        {
             "type": "path",
             "url": "repos/drupal",
             "options": {
@@ -47,6 +52,7 @@
         "drupal/core-recommended": "*",
         "drupal/drupal": "*",
         "drupal/entitygroupfield": "^2.0@alpha",
+        "drupal/gcontent_moderation": "dev-3309542-is-group-content#0ac9b12b",
         "drupal/group": "^2",
         "drupal/paragraphs": "^1.15",
         "drupal/save_edit": "^1.5",
