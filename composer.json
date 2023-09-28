@@ -48,7 +48,7 @@
         "drupal/drupal": "*",
         "drupal/entitygroupfield": "^2.0@alpha",
         "drupal/group": "^2",
-        "drupal/paragraphs": "^1.15",
+        "drupal/paragraphs": "^1.16",
         "drupal/save_edit": "^1.5",
         "drush/drush": "^11.x-dev",
         "joachim-n/composer-manifest": "^1.1",

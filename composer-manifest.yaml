@@ -5,9 +5,9 @@ packages:
     behat/mink-selenium2-driver: v1.6.0
     chi-teck/drupal-code-generator: 2.6.2
     colinodell/psr-testlogger: v1.2.0
-    composer/ca-bundle: 1.3.6
+    composer/ca-bundle: 1.3.7
     composer/class-map-generator: 1.1.0
-    composer/composer: 2.5.8
+    composer/composer: 2.6.3
     composer/installers: v2.2.0
     composer/metadata-minifier: 1.0.0
     composer/pcre: 3.1.0
@@ -27,43 +27,43 @@ packages:
     dealerdirect/phpcodesniffer-composer-installer: v1.0.0
     dflydev/dot-access-data: v3.0.2
     doctrine/annotations: 1.14.3
-    doctrine/deprecations: v1.1.1
+    doctrine/deprecations: 1.1.2
     doctrine/instantiator: 2.0.0
     doctrine/lexer: 2.1.0
     drupal/admin_toolbar: 3.4.1
     drupal/coder: 8.3.21
-    drupal/core: 10.1.x-dev
-    drupal/core-composer-scaffold: 10.1.2
-    drupal/core-dev: 10.1.x-dev
-    drupal/core-project-message: 10.1.x-dev
-    drupal/core-recommended: 10.1.x-dev
-    drupal/core-vendor-hardening: 10.1.x-dev
-    drupal/drupal: 10.1.x-dev
+    drupal/core: 10.1.4
+    drupal/core-composer-scaffold: 10.1.4
+    drupal/core-dev: 10.1.4
+    drupal/core-project-message: 10.1.4
+    drupal/core-recommended: 10.1.4
+    drupal/core-vendor-hardening: 10.1.4
+    drupal/drupal: 10.1.4
     drupal/entity: 1.4.0
     drupal/entity_reference_revisions: 1.10.0
     drupal/entitygroupfield: 2.0.0-alpha1
     drupal/flexible_permissions: 1.0.0
     drupal/group: 2.2.0
-    drupal/paragraphs: 1.15.0
-    drupal/save_edit: 1.5.0
+    drupal/paragraphs: 1.16.0
+    drupal/save_edit: 1.7.0
     drupal/variationcache: 1.3.0
-    drush/drush: '11.x-dev:0248c823a1836f5e05bf65d396ecc3acff683236'
+    drush/drush: '11.x-dev:fd8d4e4dd41ade4f658f1a4782537b6f4688e577'
     egulias/email-validator: 4.0.1
     enlightn/security-checker: v1.10.0
     grasmash/expander: 3.0.0
-    guzzlehttp/guzzle: 7.7.0
+    guzzlehttp/guzzle: 7.7.1
     guzzlehttp/promises: 2.0.1
     guzzlehttp/psr7: 2.5.1
     instaclick/php-webdriver: 1.4.16
     joachim-n/composer-manifest: 1.1.5
-    justinrainbow/json-schema: 5.2.12
+    justinrainbow/json-schema: v5.2.13
     league/container: 4.2.0
     masterminds/html5: 2.8.1
-    mck89/peast: v1.15.3
-    mglaman/phpstan-drupal: 1.1.37
+    mck89/peast: v1.15.4
+    mglaman/phpstan-drupal: 1.2.0
     mikey179/vfsstream: v1.6.11
     myclabs/deep-copy: 1.11.1
-    nikic/php-parser: v4.16.0
+    nikic/php-parser: v4.17.1
     pear/archive_tar: 1.4.14
     pear/console_getopt: v1.4.3
     pear/pear-core-minimal: v1.10.13
@@ -74,30 +74,31 @@ packages:
     phootwork/lang: v3.2.2
     phpdocumentor/reflection-common: 2.2.0
     phpdocumentor/reflection-docblock: 5.3.0
-    phpdocumentor/type-resolver: 1.7.2
+    phpdocumentor/type-resolver: 1.7.3
     phpowermove/docblock: v4.0
     phpspec/prophecy: v1.17.0
     phpspec/prophecy-phpunit: v2.0.2
     phpstan/extension-installer: 1.3.1
-    phpstan/phpdoc-parser: 1.23.1
-    phpstan/phpstan: 1.10.28
-    phpstan/phpstan-phpunit: 1.3.13
-    phpunit/php-code-coverage: 9.2.27
+    phpstan/phpdoc-parser: 1.24.2
+    phpstan/phpstan: 1.10.35
+    phpstan/phpstan-deprecation-rules: 1.1.4
+    phpstan/phpstan-phpunit: 1.3.14
+    phpunit/php-code-coverage: 9.2.29
     phpunit/php-file-iterator: 3.0.6
     phpunit/php-invoker: 3.1.1
     phpunit/php-text-template: 2.0.4
     phpunit/php-timer: 5.0.3
-    phpunit/phpunit: 9.6.10
+    phpunit/phpunit: 9.6.13
     psr/cache: 3.0.0
     psr/container: 2.0.2
     psr/event-dispatcher: 1.0.0
-    psr/http-client: 1.0.2
+    psr/http-client: 1.0.3
     psr/http-factory: 1.0.2
     psr/http-message: '2.0'
     psr/log: 3.0.0
-    psy/psysh: v0.11.20
+    psy/psysh: v0.11.21
     ralouphie/getallheaders: 3.0.3
-    react/promise: v2.10.0
+    react/promise: v3.0.0
     sebastian/cli-parser: 1.0.1
     sebastian/code-unit: 1.0.8
     sebastian/code-unit-reverse-lookup: 2.0.3
@@ -116,23 +117,23 @@ packages:
     sebastian/version: 3.0.2
     seld/jsonlint: 1.10.0
     seld/phar-utils: 1.2.1
-    seld/signal-handler: 2.0.1
+    seld/signal-handler: 2.0.2
     sirbrillig/phpcs-variable-analysis: v2.11.17
     slevomat/coding-standard: 8.13.4
     squizlabs/php_codesniffer: 3.7.2
     symfony/browser-kit: v6.3.2
-    symfony/console: v6.3.2
+    symfony/console: v6.3.4
     symfony/css-selector: v6.3.2
-    symfony/dependency-injection: v6.3.2
+    symfony/dependency-injection: v6.3.4
     symfony/deprecation-contracts: v3.3.0
-    symfony/dom-crawler: v6.3.1
+    symfony/dom-crawler: v6.3.4
     symfony/error-handler: v6.3.2
     symfony/event-dispatcher: v6.3.2
     symfony/event-dispatcher-contracts: v3.3.0
     symfony/filesystem: v6.3.1
     symfony/finder: v6.3.3
-    symfony/http-foundation: v6.3.2
-    symfony/http-kernel: v6.3.3
+    symfony/http-foundation: v6.3.4
+    symfony/http-kernel: v6.3.4
     symfony/lock: v6.3.2
     symfony/mime: v6.3.3
     symfony/phpunit-bridge: v6.3.2
@@ -143,16 +144,16 @@ packages:
     symfony/polyfill-intl-normalizer: v1.27.0
     symfony/polyfill-mbstring: v1.27.0
     symfony/polyfill-php83: v1.27.0
-    symfony/process: v6.3.2
+    symfony/process: v6.3.4
     symfony/psr-http-message-bridge: v2.2.0
     symfony/routing: v6.3.3
-    symfony/serializer: v6.3.3
+    symfony/serializer: v6.3.4
     symfony/service-contracts: v3.3.0
     symfony/string: v6.3.2
     symfony/translation-contracts: v3.3.0
-    symfony/validator: v6.3.2
-    symfony/var-dumper: v6.3.3
-    symfony/var-exporter: v6.3.2
+    symfony/validator: v6.3.4
+    symfony/var-dumper: v6.3.4
+    symfony/var-exporter: v6.3.4
     symfony/yaml: v6.3.3
     theseer/tokenizer: 1.2.1
     twig/twig: v3.6.1
