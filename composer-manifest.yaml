@@ -32,16 +32,17 @@ packages:
     doctrine/lexer: 2.1.0
     drupal/admin_toolbar: 3.4.1
     drupal/coder: 8.3.21
-    drupal/core: 10.1.4
+    drupal/core: 10.1.x-dev
     drupal/core-composer-scaffold: 10.1.4
-    drupal/core-dev: 10.1.4
-    drupal/core-project-message: 10.1.4
-    drupal/core-recommended: 10.1.4
-    drupal/core-vendor-hardening: 10.1.4
-    drupal/drupal: 10.1.4
+    drupal/core-dev: 10.1.x-dev
+    drupal/core-project-message: 10.1.x-dev
+    drupal/core-recommended: 10.1.x-dev
+    drupal/core-vendor-hardening: 10.1.x-dev
+    drupal/drupal: 10.1.x-dev
     drupal/entity: 1.4.0
     drupal/entity_reference_revisions: 1.10.0
     drupal/entitygroupfield: 2.0.0-alpha1
+    drupal/field_group: 3.4.0
     drupal/flexible_permissions: 1.0.0
     drupal/group: 2.2.0
     drupal/paragraphs: 1.16.0

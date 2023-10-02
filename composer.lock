@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "46cdb83c7c3576566db28341ef4bf9a3",
+    "content-hash": "e56c7be3c3eb4c0b2bfabe8b47bcccb8",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2296,7 +2296,7 @@
         },
         {
             "name": "drupal/core",
-            "version": "10.1.4",
+            "version": "10.1.x-dev",
             "dist": {
                 "type": "path",
                 "url": "repos/drupal/core",
@@ -2503,7 +2503,7 @@
         },
         {
             "name": "drupal/core-dev",
-            "version": "10.1.4",
+            "version": "10.1.x-dev",
             "dist": {
                 "type": "path",
                 "url": "repos/drupal/composer/Metapackage/DevDependencies",
@@ -2549,7 +2549,7 @@
         },
         {
             "name": "drupal/core-project-message",
-            "version": "10.1.4",
+            "version": "10.1.x-dev",
             "dist": {
                 "type": "path",
                 "url": "repos/drupal/composer/Plugin/ProjectMessage",
@@ -2582,11 +2582,11 @@
         },
         {
             "name": "drupal/core-recommended",
-            "version": "10.1.4",
+            "version": "10.1.x-dev",
             "dist": {
                 "type": "path",
                 "url": "repos/drupal/composer/Metapackage/CoreRecommended",
-                "reference": "264d955a1b94725c2446547612fd2422ab3c5352"
+                "reference": "344a532cac7e8773a84814f50880cead075b40d6"
             },
             "require": {
                 "asm89/stack-cors": "~v2.1.1",
@@ -2594,7 +2594,7 @@
                 "doctrine/annotations": "~1.14.3",
                 "doctrine/deprecations": "~v1.1.1",
                 "doctrine/lexer": "~2.1.0",
-                "drupal/core": "10.1.4",
+                "drupal/core": "10.1.x-dev",
                 "egulias/email-validator": "~4.0.1",
                 "guzzlehttp/guzzle": "~7.7.0",
                 "guzzlehttp/psr7": "~2.5.0",
@@ -2655,7 +2655,7 @@
         },
         {
             "name": "drupal/core-vendor-hardening",
-            "version": "10.1.4",
+            "version": "10.1.x-dev",
             "dist": {
                 "type": "path",
                 "url": "repos/drupal/composer/Plugin/VendorHardening",
@@ -2688,11 +2688,11 @@
         },
         {
             "name": "drupal/drupal",
-            "version": "10.1.4",
+            "version": "10.1.x-dev",
             "dist": {
                 "type": "path",
                 "url": "repos/drupal",
-                "reference": "95d7b130e5db9fe05f3ed89af38cfd40083e6d11"
+                "reference": "28ada5804efb17f9457985482b8207ed660ac31b"
             },
             "require": {
                 "composer/installers": "^2.0",
@@ -3014,6 +3014,67 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/entitygroupfield",
                 "issues": "https://drupal.org/project/issues/entitygroupfield"
+            }
+        },
+        {
+            "name": "drupal/field_group",
+            "version": "3.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/field_group.git",
+                "reference": "8.x-3.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/field_group-8.x-3.4.zip",
+                "reference": "8.x-3.4",
+                "shasum": "80b937e1a11f8b29c69d853fc4bf798c057c6f94"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-3.4",
+                    "datestamp": "1667241979",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Hydra",
+                    "homepage": "https://www.drupal.org/user/647364"
+                },
+                {
+                    "name": "jyve",
+                    "homepage": "https://www.drupal.org/user/591438"
+                },
+                {
+                    "name": "nils.destoop",
+                    "homepage": "https://www.drupal.org/user/361625"
+                },
+                {
+                    "name": "Stalski",
+                    "homepage": "https://www.drupal.org/user/322618"
+                },
+                {
+                    "name": "swentel",
+                    "homepage": "https://www.drupal.org/user/107403"
+                }
+            ],
+            "description": "Provides the field_group module.",
+            "homepage": "https://www.drupal.org/project/field_group",
+            "support": {
+                "source": "https://git.drupalcode.org/project/field_group",
+                "issues": "https://www.drupal.org/project/issues/field_group"
             }
         },
         {

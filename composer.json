@@ -47,6 +47,7 @@
         "drupal/core-recommended": "*",
         "drupal/drupal": "*",
         "drupal/entitygroupfield": "^2.0@alpha",
+        "drupal/field_group": "^3.4",
         "drupal/group": "^2",
         "drupal/paragraphs": "^1.16",
         "drupal/save_edit": "^1.5",
