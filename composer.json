@@ -44,14 +44,8 @@
         "drupal/core": "*",
         "drupal/core-composer-scaffold": "*",
         "drupal/core-dev": "*",
-        "drupal/core-recommended": "*",
         "drupal/drupal": "*",
-        "drupal/entitygroupfield": "^2.0@alpha",
-        "drupal/field_group": "^3.4",
-        "drupal/group": "^2",
-        "drupal/paragraphs": "^1.16",
-        "drupal/save_edit": "^1.5",
-        "drush/drush": "^11.x-dev",
+        "drush/drush": "^12",
         "joachim-n/composer-manifest": "^1.1",
         "phpspec/prophecy-phpunit": "*",
         "symfony/var-dumper": "^5.4 | ^6.2"
@@ -62,15 +56,16 @@
         "sort-packages": true,
         "allow-plugins": {
             "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
             "drupal/core-vendor-hardening": true,
-            "drupal/core-composer-scaffold": true,
-            "phpstan/extension-installer": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true,
-            "php-http/discovery": true,
             "joachim-n/composer-manifest": true,
+            "php-http/discovery": true,
+            "phpstan/extension-installer": true,
             "simplesamlphp/composer-module-installer": true,
-            "cweagans/composer-patches": true
+            "tbachert/spi": true
         }
     },
     "scripts": {
